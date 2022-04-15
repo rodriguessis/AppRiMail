@@ -3,6 +3,7 @@ package br.com.projecta.rmail.adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import br.com.projecta.rmail.R
 import br.com.projecta.rmail.model.Email
@@ -13,7 +14,7 @@ class EmailAdapter(val emails : MutableList<Email>) : RecyclerView.Adapter<Email
         fun bind(email: Email) {
 
 
-           // itemView.findViewById<>()
+
         }
 
     }
