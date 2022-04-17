@@ -31,7 +31,7 @@ fun fakeEmails() : MutableList<Email> = mutableListOf<Email>(
         subject = "O trem que passa por aqui é fodha de mais da conta"
         preview = "Urgente olhe isso"
         data = "16 jun"
-        stared = false
+        stared = true
     },
     email {
         user = "Itau"
@@ -45,14 +45,16 @@ fun fakeEmails() : MutableList<Email> = mutableListOf<Email>(
         subject = "Fim da guerra entrer ukrania e russian a paz será restabelicida"
         preview = "Ótima Notícia"
         data = "16 jun"
-        stared = false
+        stared = true
+        unread = true
     },
     email {
         user = "Instagran"
         subject = "Curtiram sua foto agora"
         preview = "Vem conferiar"
         data = "02 jan"
-        stared = false
+        stared = true
+        unread = true
     },    email {
         user = "Facebook"
         subject = "O trem que passa por aqui é fodha de mais da conta"
@@ -66,6 +68,30 @@ fun fakeEmails() : MutableList<Email> = mutableListOf<Email>(
         preview = "Venha pegar seu premio"
         data = "19 ago"
         stared = false
+        unread = true
+    },
+    email {
+        user = "Ukrania X Russia"
+        subject = "Fim da guerra entrer ukrania e russian a paz será restabelicida"
+        preview = "Ótima Notícia"
+        data = "16 jun"
+        stared = true
+    },
+    email {
+        user = "Instagran"
+        subject = "Curtiram sua foto agora"
+        preview = "Vem conferiar"
+        data = "02 jan"
+        stared = false
+        unread = true
+    },
+    email {
+        user = "Itau"
+        subject = "Voce ganhou na mega Sena"
+        preview = "Venha pegar seu premio"
+        data = "19 ago"
+        stared = false
+        unread = true
     },
     email {
         user = "Ukrania X Russia"
@@ -79,7 +105,8 @@ fun fakeEmails() : MutableList<Email> = mutableListOf<Email>(
         subject = "Curtiram sua foto agora"
         preview = "Vem conferiar"
         data = "02 jan"
-        stared = false
+        stared = true
+        unread = true
     }
 
 )
